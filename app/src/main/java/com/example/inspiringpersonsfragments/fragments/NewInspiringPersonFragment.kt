@@ -1,4 +1,4 @@
-package com.example.inspiringpersonsfragments
+package com.example.inspiringpersonsfragments.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -14,8 +14,15 @@ class NewInspiringPersonFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding=FragmentNewInspiringPersonBinding.inflate(inflater,container,false)
+        binding = FragmentNewInspiringPersonBinding.inflate(inflater, container, false)
 
         return binding.root
+    }
+
+    companion object {
+        const val TAG = "New inspiring person"
+        fun create(): NewInspiringPersonFragment {
+            return NewInspiringPersonFragment()
+        }
     }
 }

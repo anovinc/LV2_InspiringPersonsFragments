@@ -1,6 +1,7 @@
-package com.example.inspiringpersonsfragments
+package com.example.inspiringpersonsfragments.adapters
 
 import androidx.recyclerview.widget.RecyclerView
+import com.example.inspiringpersonsfragments.model.InspiringPerson
 import com.example.inspiringpersonsfragments.databinding.ItemInspiringPersonBinding
 import com.squareup.picasso.Picasso
 

@@ -1,9 +1,9 @@
-package com.example.inspiringpersonsfragments
+package com.example.inspiringpersonsfragments.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.Adapter
 import androidx.recyclerview.widget.RecyclerView
+import com.example.inspiringpersonsfragments.model.InspiringPerson
 import com.example.inspiringpersonsfragments.databinding.ItemInspiringPersonBinding
 
 class InspiringPersonsAdapter : RecyclerView.Adapter<InspiringPersonViewHolder>() {

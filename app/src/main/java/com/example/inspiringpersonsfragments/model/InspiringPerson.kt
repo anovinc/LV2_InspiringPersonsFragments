@@ -1,4 +1,4 @@
-package com.example.inspiringpersonsfragments
+package com.example.inspiringpersonsfragments.model
 
 import java.io.Serializable
 

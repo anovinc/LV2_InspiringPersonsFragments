@@ -1,9 +1,9 @@
-package com.example.inspiringpersonsfragments
+package com.example.inspiringpersonsfragments.activities
 
-import android.app.TaskStackBuilder.create
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import java.net.URI.create
+import com.example.inspiringpersonsfragments.R
+import com.example.inspiringpersonsfragments.fragments.InspiringPersonsListFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,7 +13,10 @@ class MainActivity : AppCompatActivity() {
 
         if(savedInstanceState==null){
             supportFragmentManager.beginTransaction()
-                .add(R.id.fl_fragmentContainer,InspiringPersonsListFragment.create(),InspiringPersonsListFragment.TAG)
+                .add(
+                    R.id.fl_fragmentContainer,
+                    InspiringPersonsListFragment.create(),
+                    InspiringPersonsListFragment.TAG)
                 .commit()
         }
     }

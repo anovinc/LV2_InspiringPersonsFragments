@@ -1,4 +1,6 @@
-package com.example.inspiringpersonsfragments
+package com.example.inspiringpersonsfragments.data
+
+import com.example.inspiringpersonsfragments.model.InspiringPerson
 
 object InspiringPersonsRepository {
 
